@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "Office Times Round";
+  src: url('OfficeTimesRound-RoundMono.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url('Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  src: url('Inter-Bold.ttf') format('truetype');
+}

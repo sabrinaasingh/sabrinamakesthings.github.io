@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sabrina Makes Things!</title>
+  <link rel="icon" type="image/png" href="gear.png">
+</head>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<!-- WEEKLY PROJECTS -->
+
+  <body>
+    <div class="container">
+      
+      <div id="finalproject">
+        <a href="">
+          <div class="overlay"></div>
+          <div class="overlay-text">Final Project</div>
+        </a>
+      </div>
+
+      <div id="week1">
+        <a href="">
+          <div class="overlay2"></div>
+          <div class="overlay2-text">Week 1<br>Git HTML</div>
+        </a>
+      </div>
+
+      <div id="week2">
+        <a href="">
+          <div class="overlay3"></div>
+          <div class="overlay3-text">Week 2<br>Laser + Vinyl<br>Cutting</div>
+        </a>
+      </div>
+      
+      <div id="week3">
+        <a href="">
+          <div class="overlay4"></div>
+          <div class="overlay4-text">Week 3<br>PCB Soldering<br>Electronics Production</div>
+        </a>
+      </div>
+
+      <div id="week4">
+        <a href="">
+          <div class="overlay5"></div>
+          <div class="overlay5-text">Week 4<br>3D Scanning<br>+ Printing</div>
+        </a>
+      </div>
+
+      <div id="week5">
+        <a href="">
+          <div class="overlay6"></div>
+          <div class="overlay6-text">Week 5<br>Electronics<br>Design</div>
+        </a>
+      </div>
+
+      <div id="aboutme">
+        <a href="aboutme.html">
+          <div class="overlay7"></div>
+          <div class="overlay7-text">Sabrina<br>Makes<br>(almost)<br>Anything!</a></div>
+        </a>
+      </div>
+
+      <div id="week6">
+        <a href="">
+          <div class="overlay8"></div>
+          <div class="overlay8-text">Week 6<br>Computer<br>Controlled<br>Machining</div>
+        </a>
+      </div>
+
+      <div id="week7">
+        <a href="">
+          <div class="overlay9"></div>
+          <div class="overlay9-text">Week 7<br>Embedded<br>Programming</div>
+        </a>
+      </div>
+
+      <div id="week8">
+        <a href="">
+          <div class="overlay10"></div>
+          <div class="overlay10-text">Week 8<br>Molding + Casting</div>
+        </a>
+      </div>
+
+      <div id="week9">
+        <a href="">
+          <div class="overlay11"></div>
+          <div class="overlay11-text">Week 9<br>Input Devices</div>
+        </a>
+      </div>
+
+      <div id="week10">
+        <a href="">
+          <div class="overlay12"></div>
+          <div class="overlay12-text">Week 10<br>Output Devices</div>
+        </a>
+      </div>
+
+      <div id="week11">
+        <a href="">
+          <div class="overlay13"></div>
+          <div class="overlay13-text">Week 11<br>Networking +<br>Communications</div>
+        </a>
+      </div>
+
+      <div id="week12">
+        <a href="">
+          <div class="overlay14"></div>
+          <div class="overlay14-text">Week 12<br>Mechanical Machine Design</div>
+        </a>
+      </div>
+
+      <div id="week13">
+        <a href="">
+          <div class="overlay15"></div>
+          <div class="overlay15-text">Week 13<br>Interface +<br>Application<br>Programming</div>
+        </a>
+      </div>
+
+      <div id="week14">
+        <a href="">
+          <div class="overlay16"></div>
+          <div class="overlay16-text">Week 14<br>Wildcard Week</div>
+        </a>
+      </div>
+    
+    </div>
+    </body>
+
+<style>
+/* STYLING FOR DESKTOP/LAPTOP SCREENS */
+.container{
+  display:grid;
+  height:92vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "finalproject finalproject week1 week2 week3 week3 week3" 
+    "finalproject finalproject aboutme aboutme week6 week8 week8" 
+    "week4 week5 aboutme aboutme week7 week8 week8" 
+    "week9 week10 week11 week12 week12 week13 week14";
+  min-height: 800px;
+  min-width: 800px;
+  grid-gap: 2rem;
+  padding: 2rem;
+}
+
+#finalproject{
+  background:#DA3937;
+  grid-area: finalproject;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+  height: 85%;
+  width: 85%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1.5vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week1{
+  background:#F56320;
+  grid-area: week1;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay2-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week2{
+  background:#F8A227;
+  grid-area: week2;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay3-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week3{
+  background:#FECC2F;
+  grid-area: week3;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 9.5%;
+  left: 3.5%;
+  height: 80%;
+  width: 92.5%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay4-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week4{
+  background:#6CBC6C;
+  grid-area: week4;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay5-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week5{
+  background:#CDDC39;
+  grid-area: week5;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay6-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#aboutme{
+  background:#96CBFF;
+  grid-area: aboutme;
+  z-index: 1;
+  position: relative;
+}
+
+#aboutme a {
+  text-decoration: none; 
+  color: #ffffff; 
+}
+
+.overlay7 {
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+  height: 85%;
+  width: 85%;
+  background-color: #ffffff;
+  background-image: url('electronics.gif');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.4);
+}
+
+.overlay7-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1.5vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week6{
+  background:#40A4D8;
+  grid-area: week6;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay8 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay8-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week7{
+  background:#357EDD;
+  grid-area: week7;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay9 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay9-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week8{
+  background:#3F51B5;
+  grid-area: week8;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay10 {
+  position: absolute;
+  top: 7.5%;
+  left: 7.5%;
+  height: 85%;
+  width: 85%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay10-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1.5vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week9{
+  background:#673AB7;
+  grid-area: week9;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay11 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay11-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week10{
+  background:#9C27B0;
+  grid-area: week10;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay12 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay12-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week11{
+  background:#A364D9;
+  grid-area: week11;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay13 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay13-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week12{
+  background:#E81E63;
+  grid-area: week12;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay14 {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+  height: 80%;
+  width: 90%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay14-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week13{
+  background:#EE6579;
+  grid-area: week13;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay15 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay15-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+#week14{
+  background:#E44B8D;
+  grid-area: week14;
+  z-index: 1;
+  position: relative;
+}
+
+.overlay16 {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-color: #ffffff;
+  background-image: url('black.png');
+  background-size: cover;
+  z-index: 2;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
+}
+
+.overlay16-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Office Times Round";
+  font-size: 1vw;
+  font-weight: thin;
+  color: #ffffff;
+  text-align: center;
+  z-index: 3;
+  white-space: nowrap;
+}
+
+/* STYLING FOR MOBILE */
+
+@media (max-width: 1000px){
+  .container {
+    height:300vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
+    min-height: 3000px;
+    min-width:100px;
+    grid-template-areas: 
+    "aboutme"
+    "finalproject"
+    "week1"
+    "week2"
+    "week3"
+    "week4"
+    "week5"
+    "week6"
+    "week7"
+    "week8"
+    "week9"
+    "week10"
+    "week11"
+    "week12"
+    "week13"
+    "week14";
+  }
+
+  .overlay7 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay7-text {
+  font-size: 2.5vw;
+}
+
+.overlay {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay-text {
+  font-size: 2.5vw;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay2-text {
+  font-size: 2.5vw;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay3-text {
+  font-size: 2.5vw;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay4-text {
+  font-size: 2.5vw;
+}
+
+.overlay5 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay5-text {
+  font-size: 2.5vw;
+}
+
+.overlay6 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay6-text {
+  font-size: 2.5vw;
+}
+
+.overlay8 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay8-text {
+  font-size: 2.5vw;
+}
+
+.overlay9 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay9-text {
+  font-size: 2.5vw;
+}
+
+.overlay10 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay10-text {
+  font-size: 2.5vw;
+}
+
+.overlay11 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay11-text {
+  font-size: 2.5vw;
+}
+
+.overlay12 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay12-text {
+  font-size: 2.5vw;
+}
+
+.overlay13 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay13-text {
+  font-size: 2.5vw;
+}
+
+.overlay14 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay14-text {
+  font-size: 2.5vw;
+}
+
+.overlay15 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay15-text {
+  font-size: 2.5vw;
+}
+
+.overlay16 {
+  position: absolute;
+  top: 10%;
+  left: 4%;
+  height: 80%;
+  width: 92%;
+}
+
+.overlay16-text {
+  font-size: 2.5vw;
+}
+
+}
+
+</style>
+</head>
+</html>
