@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sabrina Makes Things!</title>
+  <link rel="icon" type="image/png" href="gear.png">
+</head>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #F56320;">
+    <div class="heading">Week 1</div>
+    <div class="home"><a href="https://sabrinamakesthings.com">LET'S GO HOME!</a></div>
+    <div class="line1">I used to do programming a couple years ago when I first started building neurotech projects. But since I’ve been doing research, I haven’t been working on my programming skills so this week I started again from the very basics. </div>
+    <div class="line2">This website is built entirely using HTML and CSS. I had a website design in mind so I went without a web template. I started by designing a skeleton of the website that I wanted to create in Figma:</div>
+    <div class="image-container" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="figma.png">
+    </div>
+    <div class="line3">After playing around with HTML and CSS, I reproduced the design onto my laptop:</div>
+    <div class="image-container2" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="laptop.png">
+    </div>
+    <div class="line4">But, because I was using margins I realized that the design was scaled to fit my own display. If I moved it to a smaller or larger display, it wouldn’t scale to fit the size of the screen. Instead, it looked something like this:</div>
+    <div class="image-container3" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="resize.png">
+    </div>
+    <div class="line5">To fix this problem, I redid the entire website using CSS grids. This made sure that every component of the website scaled with the size of display. I had a functioning and somewhat repsonsive website!</div>
+    <video class="video" autoplay loop style="display: flex; justify-content: center; align-items: center;">
+      <source src="hmaawebsite.mov" type="video/quicktime">
+    </video>
+    <div class="line6">Except, the website still had issues on mobile. I couldn’t keep the original 7x4 grid, so I used media queries to create a singular column of weekly projects. This is what it looked like once I was finished:</div>
+    <div class="image-container4" style="display: flex; justify-content: center; align-items: center; margin-top: 2%;">
+        <img src="phone.jpg">
+    </div>
+    <div class="line7">Using git add, commit, push, etc. I got this website running on <a href="https://sabrinamakesthings.com">sabrinamakesthings.com!</a></div>
+</body>
+
+<style>
+    .heading {
+      font-family: Office Times Round;
+      font-size: 70px;
+      color: #ffffff;
+      margin-top: 3%;
+      text-align: center;
+    }
+    
+    .home {
+      font-family: Inter Bold;
+      font-size: 20px;
+      color: #ffffff;
+      margin-top: 0%;
+      text-align: center;
+    }
+    
+    .home a {
+      text-decoration: underline; 
+      color: #ffffff; 
+    }
+
+    .line1 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line2 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line3 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container2 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line4 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container3 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line5 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.video {
+  display: block;
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 30%;
+  height: auto;
+}
+
+.line6 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container4 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line7 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.line7 a {
+  text-decoration: underline; 
+  color: #ffffff; 
+}
+
+.line8 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+body {
+  padding-bottom: 50px; 
+}
+
+/* MOBILE */
+@media (max-width: 1000px){
+  .heading {
+  font-family: Office Times Round;
+  font-size: 80px;
+  color: #ffffff;
+  margin-top: 10%;
+}
+
+.home {
+  font-family: Inter Bold;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 0%;
+}
+
+.line1 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line2 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line3 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container2 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line4 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container3 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line5 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.video {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line6 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container4 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line7 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+}
