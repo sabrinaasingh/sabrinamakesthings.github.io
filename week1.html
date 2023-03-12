@@ -14,7 +14,7 @@
     <div class="home"><a href="https://sabrinamakesthings.com">LET'S GO HOME!</a></div>
     <div class="line1">I used to do programming a couple years ago when I first started building neurotech projects. But since I’ve been doing research, I haven’t been working on my programming skills so this week I started again from the very basics. </div>
     <div class="line2">This website is built entirely using HTML and CSS. I had a website design in mind so I went without a web template. I started by designing a skeleton of the website that I wanted to create in Figma:</div>
-    <div class="image-container" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+    <div class="image-container" style="justify-content: center; align-items: center; margin-top:2%;">
         <img src="figma.png">
     </div>
     <div class="line3">After playing around with HTML and CSS, I reproduced the design onto my laptop:</div>
@@ -25,10 +25,7 @@
     <div class="image-container3" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
         <img src="resize.png">
     </div>
-    <div class="line5">To fix this problem, I redid the entire website using CSS grids. This made sure that every component of the website scaled with the size of display. I had a functioning and somewhat repsonsive website!</div>
-    <video class="video" autoplay loop style="display: flex; justify-content: center; align-items: center;">
-      <source src="hmaawebsite.mov" type="video/quicktime">
-    </video>
+    <div class="line5">To fix this problem, I redid the entire website using CSS grids. This made sure that every component of the website scaled with the size of display. Try it for yourself by playing around with the size of this website!</div>
     <div class="line6">Except, the website still had issues on mobile. I couldn’t keep the original 7x4 grid, so I used media queries to create a singular column of weekly projects. This is what it looked like once I was finished:</div>
     <div class="image-container4" style="display: flex; justify-content: center; align-items: center; margin-top: 2%;">
         <img src="phone.jpg">
@@ -134,14 +131,6 @@
   line-height: 1.5;
 } 
 
-.video {
-  display: block;
-  margin: 0 auto;
-  margin-top: 2%;
-  width: 30%;
-  height: auto;
-}
-
 .line6 {
   font-family: Inter;
   font-size: 17px;
@@ -195,7 +184,7 @@ body {
 @media (max-width: 1000px){
   .heading {
   font-family: Office Times Round;
-  font-size: 500%;
+  font-size: 80px;
   color: #ffffff;
   margin-top: 10%;
 }
@@ -281,13 +270,6 @@ body {
   margin-right: 10%;
   text-align: center;
   line-height: 1.5;
-}
-
-.video {
-  display: block;
-  margin: 0 auto;
-  width: 80%;
-  height: auto;
 }
 
 .line6 {
