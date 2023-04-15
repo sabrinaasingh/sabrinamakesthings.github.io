@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sabrina Makes Things!</title>
+  <link rel="icon" type="image/png" href="gear.png">
+</head>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="background-color: #F8A227;">
+    <div class="heading">Week 2</div>
+    <div class="home"><a href="https://sabrinamakesthings.com">LET'S GO HOME!</a></div>
+    <div class="heading2">Objective</div>
+    <div class="line0">1) Cut something on a vinyl cutter.<br>2) Characterize your laser cutter’s focus, power, speed, rate. Design and cut something on a laser cutter.</div>
+    <div class="heading3">Vinyl Cutting</div>
+    <div class="line1">The vinyl cutter at the maker space isn’t working right now. I'll complete this once it’s back up and running!</div>
+    <div class="heading4">Laser Cutting</div>
+    <div class="line2">You’re required to take a laser cutting class before you can self-operate the laser cutter at Noisebridge (similar to most heavy/potentially dangerous/expensive machinery).</div>
+    <div class="image-container1" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="danger.png">
+    </div>
+    <div class="line3">The class taught me everything I needed to know about operating the laser cutter, figuring out the power, speed, and rate at which I needed to cut, and how to prevent or put out laser cutter fires. To certify that I’ve taken the class, I made a TOIT.</div>
+    <div class="image-container2" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="toit.png">
+    </div>
+    <div class="line4">If you look closely, you can see that the two circles are cut out while the text is bidirectionally cross-hatched into the arylic.</div>
+    <div class="image-container3" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="toit2.png">
+    </div>
+    <div class="line5">For my own project, I wanted to create an Ace of Spades playing card, the luckiest card in the deck. I started by designing the card in Figma, turned it into a vector and sent it to laser cutting software.</div>
+    <div class="image-container4" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="lightburn.png">
+    </div>
+    <div class="line6">I sent the project to the laser cutter where it traced the design onto the acrylic scrap. This helped me visualize the size of the card; I played around with the dimensions until it fit. Looking back, I should’ve used the actual dimensions of a playing card because cutting in inches definitely isn’t intuitive as a Canadian.</div>
+    <div class="image-container5" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="frame.png">
+    </div>
+    <div class="line7">Once I liked the size, I started the laser cutter. The sparks indicate that the laser is cutting through the material. If the laser isn’t producing sparks when touching the material, you’ll have to do another pass to make the final cut.</div>
+    <div class="image-container6" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="cutting.gif">
+    </div>
+    <div class="line8">Here's the final product!</div>
+    <div class="image-container7" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="playingcard.png">
+    </div>
+    <div class="line9">It’s a bit wider than I would’ve liked, but it’s a good first attempt. If I were to do it again, I would make the dimensions more accurate to a playing card. Also, I would etch the letters, rather than cut. Here’s everything that was cut out:</div>
+    <div class="image-container8" style="display: flex; justify-content: center; align-items: center; margin-top:2%;">
+        <img src="cutpieces.png">
+    </div>
+    <div class="line10">In the next couple of weeks, I’ll attempt to cut out all four aces and do some form of parametric design. Will update below!</div>
+</body>
+
+<style>
+.heading {
+font-family: Office Times Round;
+font-size: 70px;
+color: #ffffff;
+margin-top: 3%;
+text-align: center;
+}
+
+.home {
+font-family: Inter Bold;
+font-size: 20px;
+color: #ffffff;
+margin-top: 0%;
+text-align: center;
+}
+
+.home a {
+text-decoration: underline; 
+color: #ffffff; 
+}
+
+.heading2 {
+  font-family: Office Times Round;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line0 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 0%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.heading3 {
+  font-family: Office Times Round;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line1 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 0%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.heading4 {
+  font-family: Office Times Round;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line2 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 0%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container1 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line3 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container2 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line4 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container3 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line5 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container4 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line6 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container5 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line7 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container6 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line8 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container7 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line9 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.image-container8 img {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+}
+
+.line10 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+body {
+  padding-bottom: 50px; 
+}
+
+/* MOBILE */
+@media (max-width: 1000px){
+  .heading {
+  font-family: Office Times Round;
+  font-size: 80px;
+  color: #ffffff;
+  margin-top: 10%;
+}
+
+.home {
+  font-family: Inter Bold;
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 0%;
+}
+
+.heading2 {
+  font-family: Office Times Round;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line0 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.heading3 {
+  font-family: Office Times Round;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line1 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 0%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.heading4 {
+  font-family: Office Times Round;
+  font-size: 25px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.line2 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container1 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line3 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container2 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line4 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container3 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line5 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container4 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line6 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container5 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line7 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container6 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line8 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container7 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line9 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.image-container8 img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: auto;
+}
+
+.line10 {
+  font-family: Inter;
+  font-size: 17px;
+  color: #ffffff;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+}
+
+</style>
+</html>
